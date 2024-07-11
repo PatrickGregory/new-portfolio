@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+body{
+    background-color: black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* intro section */
+.gradient{
+    background-image: linear-gradient(to bottom right, #FF8660, #8000FF);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.gradient img{
+    width: 120px;
+    height: 110px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.kantee{
+    background: linear-gradient(to bottom right, #FF8660, #8000FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
-
-.App-link {
-  color: #61dafb;
+.headers-class{
+    text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-lg{
+    margin-left: 44%;
+}
+.btn-lg:hover{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+}
+#portfolio h3{
+        background: linear-gradient(to bottom right, #FDFDFD, #FFFFFF);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-align: center;
+}
+.logos{
+    justify-content: center;
+}
+.project-heading{
+    background: linear-gradient(to bottom right, orangered, orange);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-align: center;
+}
+.card{
+    width: 20rem;
+    height: 22rem;
+    background-color: #161513;
+}
+.card-image{
+    width: 20rem;
+    height: 80%;
+    margin-left: -12px;
+    border-radius: 5px 5px 0px 0px;
+}
+.card-body{
+    /* width: 20rem;
+    margin-left: -12.5px;
+    border-radius: 0px 0px 5px 5px;
+    height: 20%; */
+    background-color: #161513;
+}
+a{
+    text-decoration: none;
+}
+#codsoft{
+    height: 50px;
+}
+.ex{
+    text-align: center;
+    background: linear-gradient(to bottom right, #5BADFF, #1373D1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+#contact{
+    background-color: #161513;
+}
+.socials{
+    margin-left: -10px;
+    margin-top: 10px;
 }
